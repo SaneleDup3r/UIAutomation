@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<!-- NUnit adapter -->
+	<NUnit>
+		<NumberOfTestWorkers>2</NumberOfTestWorkers>
+	</NUnit>
+	
+	<!-- Playwright -->
+	<Playwright>
+		<BrowserName>chromium</BrowserName>
+		<ExpectTimeout>5000</ExpectTimeout>
+		<LaunchOptions>
+			<Headless>false</Headless>
+			<Channel>chrome</Channel>
+		</LaunchOptions>
+	</Playwright>
+	
+	<!-- TestContext.Parameters -->
+	<TestRunParameters>
+		<!-- URLs -->
+		<Parameter name="AppUrl" value="https://demowebshop.tricentis.com/" />
+	</TestRunParameters>
+</RunSettings>
